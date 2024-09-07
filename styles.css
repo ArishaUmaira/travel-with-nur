@@ -37,6 +37,21 @@
   text-align: center;
 }
 
+.wave-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.wave-container svg {
+  position: relative;
+  display: block;
+  width: calc(132% + 1.3px);
+  height: 80px; /* Adjust height as needed */
+  transform: rotateY(180deg); /* Optional: Flip the wave if needed */
+}
+
+
 .btn {
   padding: 0.75rem 1.5rem;
   outline: none;
