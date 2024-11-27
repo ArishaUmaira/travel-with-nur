@@ -11,11 +11,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>TRAVEL WITH NUR</title>
   </head>
   <body>
-    <nav>
+    <nav style="border: none;">
       <div class="nav__header">
         <div class="nav__logo">
           <a href="#" class="logo">TRAVEL WITH NUR</a>
@@ -28,36 +28,30 @@
         <li><a href="#home">HOME</a></li>
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#tour">TOUR</a></li>
-        <!-- <li><a href="#package">PACKAGE</a></li> -->
         <li><a href="#contact">CONTACT</a></li>
         <li><a href="#">BOOK TRIP</a></li>
       </ul>
-      <!-- <div class="nav__btns">
-        <button class="btn">BOOK TRIP</button>
-      </div> -->
     </nav>
 
     <header id="home">
       <div class="header__container">
         <div class="header__content">
+          <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+          <dotlottie-player src="https://lottie.host/6f8be97b-0fa5-4d5c-b19e-70cf1de089a3/cIOt3Yn2NS.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>     
+             
           <h2 style="margin-bottom: 30px;">LET'S EXPLORE THE WORLD TOGETHER WITH NUR!</h2>
-          <p >Ready for an adventure? Join me, Nur, as we set off on unforgettable journeys designed just for you! Whether you're dreaming of vibrant city streets, peaceful beaches, or fascinating historical sites, I’ll be right by your side.
+          <p >Ready for an adventure? Join me, Nur, as we set off on unforgettable journeys designed just for you! Whether you're dreaming of vibrant city streets, peaceful beaches, or fascinating historical sites, I'll be right by your side.
           </p>
           <br>
-          <p>We’ll craft fun and personalized travel plans that match your dreams and interests. From discovering hidden gems to making wonderful memories, I'll help make every part of your trip special and smooth.</p>
+          <p>We'll craft fun and personalized travel plans that match your dreams and interests. From discovering hidden gems to making wonderful memories, I'll help make every part of your trip special and smooth.</p>
           <br>
           <p>
-            Let’s turn your travel dreams into reality and create amazing stories together. Pack your bags and get ready for a fantastic adventure with me, Nur!</p>
+            Let's turn your travel dreams into reality and create amazing stories together. Pack your bags and get ready for a fantastic adventure with me, Nur!</p>
           <br>
-          <!-- <div class="header__btns">
-            <button class="btn">Book A Trip Now</button>
-            <a href="#">
-              <span><i class="ri-play-circle-fill"></i></span>
-            </a>
-          </div> -->
         </div>
         <div class="header__image">
-          <img src="assets/header.png" alt="header" />
+          <img src="img/header.png" alt="header" />
         </div>
       </div>
     </header>
@@ -69,48 +63,36 @@
       </p>
       <div class="destination__grid">
         <div class="destination__card">
-          <img src="assets/AUSTRALIA.jpg" alt="destination" height="auto;" style="object-fit: cover;" />
+          <img src="img/australia.jpg" alt="destination" height="auto;" style="object-fit: cover;" />
           <div class="destination__card__details">
             <div>
               <h4>AUSTRALIA</h4>
               <p>Japan offers me a unique mix of ancient traditions and modern excitement. I can explore historic temples, enjoy vibrant cities like Tokyo, savor delicious cuisine, and experience stunning landscapes like Mount Fuji. With its welcoming atmosphere and efficient transport, Japan makes it easy for me to have an unforgettable adventure.</p>
             </div>
-            <!-- <div class="destination__rating">
-              <span><i class="ri-star-fill"></i></span>
-              4.7
-            </div> -->
           </div>
         </div>
         <div class="destination__card">
-          <img src="assets/newzealand.jpg" alt="destination" height="460px;" style="object-fit: cover;"  />
+          <img src="img/newzealand.jpg" alt="destination" height="460px;" style="object-fit: cover;"  />
           <div class="destination__card__details">
             <div>
               <h4>NEW ZEALAND</h4>
               <p>New Zealand enchants me with its diverse landscapes, from lush rainforests and serene fjords to stunning beaches and towering mountains. I can explore Maori culture, embark on outdoor adventures like hiking and bungee jumping, and enjoy vibrant cities such as Auckland and Wellington.</p>
             </div>
-            <!-- <div class="destination__rating">
-              <span><i class="ri-star-fill"></i></span>
-              4.5
-            </div> -->
           </div>
         </div>
         <div class="destination__card">
-          <img src="assets/japan.jpg" alt="destination" height="460px;" style="object-fit: cover;" />
+          <img src="img/japan.jpg" alt="destination" height="460px;" style="object-fit: cover;" />
           <div class="destination__card__details">
             <div>
               <h4>JAPAN</h4>
               <p>Japan offers me a unique mix of ancient traditions and modern excitement. I can explore historic temples, enjoy vibrant cities like Tokyo, savor delicious cuisine, and experience stunning landscapes like Mount Fuji. With its welcoming atmosphere and efficient transport, Japan makes it easy for me to have an unforgettable adventure.</p>
             </div>
-            <!-- <div class="destination__rating">
-              <span><i class="ri-star-fill"></i></span>
-              4.8
-            </div> -->
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section__container journey__container"style="background-color: 	#d9b99b; id="tour">
+    <section class="section__container journey__container"style="background-color: 	#d9b99b" id="tour">
       <h2 class="section__header">Journeys Made Easy with Nur!</h2>
       <p class="section__description">
         Travel the World with Nur's Guidance
@@ -138,7 +120,7 @@
             <span><i class="ri-landscape-fill"></i></span>
             <h4>Tailored to You</h4>
             <p>
-              I create trips that match your style, whether it’s adventure, culture, or relaxation.
+              I create trips that match your style, whether it's adventure, culture, or relaxation.
             </p>
           </div>
         </div>
@@ -160,9 +142,9 @@
     
     
 
-    <section class="section__container showcase__container" id="package" ">
+    <section class="section__container showcase__container" id="package">
       <div class="showcase__image">
-        <img src="assets/pp.jpg" alt="showcase" />
+        <img src="img/pp.jpg" alt="showcase" />
       </div>
       <div class="showcase__content">
         <h4>Discover the World with Nur</h4>
@@ -174,62 +156,9 @@
           Your adventure starts here with "Travel with Nur." Let’s make your travel dreams come true and create unforgettable memories together.
       
         </p>
-        <!-- <div class="showcase__btn">
-          <button class="btn">
-            Book A Trip Now
-            <span><i class="ri-arrow-right-line"></i></span>
-          </button>
-        </div> -->
       </div>
     </section>
 
-    <!-- <section class="section__container banner__container">
-      <div class="banner__card">
-        <h4>5.2</h4>
-        <p>Communication</p>
-      </div>
-      <div class="banner__card">
-        <h4>6.0</h4>
-        <p>Creativity</p>
-      </div>
-      <div class="banner__card">
-        <h4>4.8</h4>
-        <p>Flexibility</p>
-      </div>
-    </section> -->
-
-    <!-- <section class="section__container discover__container">
-      <h2 class="section__header">Discover The World From Above</h2>
-      <p class="section__description">
-        Experience Breathtaking Views and Unique Perspectives
-      </p>
-      <div class="discover__grid">
-        <div class="discover__card">
-          <span><i class="ri-camera-lens-line"></i></span>
-          <h4>Aerial Cityscapes</h4>
-          <p>
-            Witness the architectural marvels and bustling streets from
-            bird's-eye view, offering a unique perspective.
-          </p>
-        </div>
-        <div class="discover__card">
-          <span><i class="ri-ship-line"></i></span>
-          <h4>Coastal Wonders</h4>
-          <p>
-            Fly over pristine coastlines and turquoise waters, revealing hidden
-            coves and vibrant coral reefs.
-          </p>
-        </div>
-        <div class="discover__card">
-          <span><i class="ri-landscape-line"></i></span>
-          <h4>Historic Landmarks</h4>
-          <p>
-            Observe the grandeur of ancient castles and other significant sites
-            in a way that ground tours can't offer.
-          </p>
-        </div>
-      </div>
-    </section> -->
     <section class="section__container client__container" style="background-color: 	#d9b99b;">
       <h2 class="section__header">Explore Europe: Countries and Highlights</h2>
       <p class="section__description">
@@ -242,11 +171,11 @@
             <div class="client__card">
               <div class="client__content">
                 <p>
-                  France is renowned for its rich history, world-class art, and delectable cuisine. From the iconic Eiffel Tower in Paris to the picturesque vineyards of Bordeaux and the lavender fields of Provence, France offers a unique blend of romance, culture, and natural beauty. Don’t miss exploring the charming streets of Montmartre and the stunning architecture of Notre-Dame Cathedral.
+                  France is renowned for its rich history, world-class art, and delectable cuisine. From the iconic Eiffel Tower in Paris to the picturesque vineyards of Bordeaux and the lavender fields of Provence, France offers a unique blend of romance, culture, and natural beauty. Don't miss exploring the charming streets of Montmartre and the stunning architecture of Notre-Dame Cathedral.
                 </p>
               </div>
               <div class="client__details">
-                <img src="assets/france.png" alt="France" />
+                <img src="img/france.png" alt="France" />
                 <div>
                   <h4>France</h4>
                   <h5>City of Love & Culture</h5>
@@ -263,7 +192,7 @@
                 </p>
               </div>
               <div class="client__details">
-                <img src="assets/italy.png" alt="Italy" />
+                <img src="img/italy.png" alt="Italy" />
                 <div>
                   <h4>Italy</h4>
                   <h5>Land of Art & Cuisine</h5>
@@ -280,7 +209,7 @@
                 </p>
               </div>
               <div class="client__details">
-                <img src="assets/spain.png" alt="Spain" />
+                <img src="img/spain.png" alt="Spain" />
                 <div>
                   <h4>Spain</h4>
                   <h5>Flamenco & Festivals</h5>
@@ -293,11 +222,11 @@
             <div class="client__card">
               <div class="client__content">
                 <p>
-                  Germany offers a perfect blend of modern cities, historical sites, and scenic countryside. Explore Berlin’s rich history and vibrant nightlife, visit the fairytale castles in Bavaria, and enjoy the scenic drives along the Romantic Road. Germany is also famous for its beer culture, particularly during the Oktoberfest in Munich.
+                  Germany offers a perfect blend of modern cities, historical sites, and scenic countryside. Explore Berlin's rich history and vibrant nightlife, visit the fairytale castles in Bavaria, and enjoy the scenic drives along the Romantic Road. Germany is also famous for its beer culture, particularly during the Oktoberfest in Munich.
                 </p>
               </div>
               <div class="client__details">
-                <img src="assets/germany.png" alt="Germany" />
+                <img src="img/germany.png" alt="Germany" />
                 <div>
                   <h4>Germany</h4>
                   <h5>History & Modernity</h5>
@@ -333,15 +262,6 @@
             </li>
           </ul>
         </div>
-        <!-- <div class="footer__col">
-          <h4>Quick Links</h4>
-          <ul class="footer__links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Flights</a></li>
-            <li><a href="#">Hotels</a></li>
-            <li><a href="#">Cruise</a></li>
-          </ul>
-        </div> -->
         <div class="footer__col">
           <h4>Contact Us</h4>
           <ul class="footer__links">
@@ -362,21 +282,14 @@
             </li>
           </ul>
         </div>
-        <!-- <div class="footer__col">
-          <h4>Subscribe</h4>
-          <form action="/">
-            <input type="text" placeholder="Enter your email" />
-            <button class="btn">Subscribe</button>
-          </form>
-        </div> -->
       </div>
       <div class="footer__bar">
-        Copyright © 2024 HazimDev. All rights reserved.
+        Copyright © 2024 NUr Arisha Umaira. All rights reserved.
       </div>
     </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
